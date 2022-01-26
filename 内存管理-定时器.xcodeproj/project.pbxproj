@@ -17,6 +17,8 @@
 		B190D5F2279FC27D0091F181 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D5F1279FC27D0091F181 /* ________Tests.m */; };
 		B190D5FC279FC27D0091F181 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D5FB279FC27D0091F181 /* ________UITests.m */; };
 		B190D5FE279FC27D0091F181 /* ________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D5FD279FC27D0091F181 /* ________UITestsLaunchTests.m */; };
+		B190D60C279FC41C0091F181 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D60B279FC41C0091F181 /* TestViewController.m */; };
+		B190D60F279FEA990091F181 /* TimerPersent.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D60E279FEA990091F181 /* TimerPersent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B190D5F7279FC27D0091F181 /* 内存管理-定时器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "内存管理-定时器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B190D5FB279FC27D0091F181 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		B190D5FD279FC27D0091F181 /* ________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		B190D60A279FC41C0091F181 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B190D60B279FC41C0091F181 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		B190D60D279FEA990091F181 /* TimerPersent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerPersent.h; sourceTree = "<group>"; };
+		B190D60E279FEA990091F181 /* TimerPersent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerPersent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				B190D5E3279FC27D0091F181 /* LaunchScreen.storyboard */,
 				B190D5E6279FC27D0091F181 /* Info.plist */,
 				B190D5E7279FC27D0091F181 /* main.m */,
+				B190D60A279FC41C0091F181 /* TestViewController.h */,
+				B190D60B279FC41C0091F181 /* TestViewController.m */,
+				B190D60D279FEA990091F181 /* TimerPersent.h */,
+				B190D60E279FEA990091F181 /* TimerPersent.m */,
 			);
 			path = "内存管理-定时器";
 			sourceTree = "<group>";
@@ -269,7 +279,9 @@
 				B190D5DD279FC27A0091F181 /* ViewController.m in Sources */,
 				B190D5D7279FC27A0091F181 /* AppDelegate.m in Sources */,
 				B190D5E8279FC27D0091F181 /* main.m in Sources */,
+				B190D60F279FEA990091F181 /* TimerPersent.m in Sources */,
 				B190D5DA279FC27A0091F181 /* SceneDelegate.m in Sources */,
+				B190D60C279FC41C0091F181 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
