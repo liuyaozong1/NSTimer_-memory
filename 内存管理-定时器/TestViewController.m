@@ -7,6 +7,7 @@
 
 #import "TestViewController.h"
 #import "TimerPersent.h"
+#import "TimerProxy.h"
 @interface TestViewController ()
 @property (nonatomic,strong) CADisplayLink *link;
 @property (nonatomic,strong) NSTimer *timer;
@@ -21,7 +22,12 @@
 //    self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(start)];
 //    [self.link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     __weak typeof(self) weakSelf = self;
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:[TimerPersent initWithObject:self] selector:@selector(start) userInfo:nil repeats:YES];
+    //方案 1
+//    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:[TimerPersent initWithObject:self] selector:@selector(start) userInfo:nil repeats:YES];
+    //方案 2
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:[TimerProxy initWithTarget:self] selector:@selector(start) userInfo:nil repeats:YES];
+    
+    //方案 3
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 repeats:true block:^(NSTimer * _Nonnull timer) {
 //        [weakSelf start];
 //    }];

@@ -19,6 +19,7 @@
 		B190D5FE279FC27D0091F181 /* ________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D5FD279FC27D0091F181 /* ________UITestsLaunchTests.m */; };
 		B190D60C279FC41C0091F181 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D60B279FC41C0091F181 /* TestViewController.m */; };
 		B190D60F279FEA990091F181 /* TimerPersent.m in Sources */ = {isa = PBXBuildFile; fileRef = B190D60E279FEA990091F181 /* TimerPersent.m */; };
+		B1AC67AA27A0DB8F00659C84 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC67A927A0DB8F00659C84 /* TimerProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		B190D60B279FC41C0091F181 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		B190D60D279FEA990091F181 /* TimerPersent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerPersent.h; sourceTree = "<group>"; };
 		B190D60E279FEA990091F181 /* TimerPersent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerPersent.m; sourceTree = "<group>"; };
+		B1AC67A827A0DB8F00659C84 /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		B1AC67A927A0DB8F00659C84 /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				B190D60B279FC41C0091F181 /* TestViewController.m */,
 				B190D60D279FEA990091F181 /* TimerPersent.h */,
 				B190D60E279FEA990091F181 /* TimerPersent.m */,
+				B1AC67A827A0DB8F00659C84 /* TimerProxy.h */,
+				B1AC67A927A0DB8F00659C84 /* TimerProxy.m */,
 			);
 			path = "内存管理-定时器";
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				B190D5DD279FC27A0091F181 /* ViewController.m in Sources */,
 				B190D5D7279FC27A0091F181 /* AppDelegate.m in Sources */,
 				B190D5E8279FC27D0091F181 /* main.m in Sources */,
+				B1AC67AA27A0DB8F00659C84 /* TimerProxy.m in Sources */,
 				B190D60F279FEA990091F181 /* TimerPersent.m in Sources */,
 				B190D5DA279FC27A0091F181 /* SceneDelegate.m in Sources */,
 				B190D60C279FC41C0091F181 /* TestViewController.m in Sources */,
