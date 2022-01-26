@@ -24,7 +24,7 @@
     __weak typeof(self) weakSelf = self;
     //方案 1
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:[TimerPersent initWithObject:self] selector:@selector(start) userInfo:nil repeats:YES];
-    //方案 2
+    //方案 2  相对于方案 1. NSProxy 是专门来做消息转发的, 效率比较高
     self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:[TimerProxy initWithTarget:self] selector:@selector(start) userInfo:nil repeats:YES];
     
     //方案 3
